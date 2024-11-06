@@ -14,7 +14,7 @@ namespace OrderFilter
             services.AddSingleton<IOrderService, OrderService>();
             services.AddSingleton<IOrderRepository, OrderRepository>();
             services.AddSingleton<IOrderLogger>(provider => new OrderLogger(logFilePath));
-            services.AddSingleton<OrderValidator, OrderValidator>();
+            services.AddSingleton<OrderValidator>();
             services.AddSingleton<IOrderProcessor, OrderProcessor>();
 
         }
