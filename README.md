@@ -3,6 +3,7 @@
 - NLog для логирования работы приложения,
 - Newtonsoft.Json для работы с JSON-файлами,
 - Microsoft.Extensions.DependencyInjection для внедрения зависимостей (DI).
+
 Файлы конфигурации:
 FilterParams.json: файл конфигурации, где задаются параметры фильтрации.
 Пример пути: OrderFilter\OrderFilter\bin\Debug\net8.0\FilterParams.json
