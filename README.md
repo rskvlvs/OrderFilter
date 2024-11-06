@@ -9,7 +9,7 @@ FilterParams.json: файл конфигурации, где задаются п
 Пример пути: OrderFilter\OrderFilter\bin\Debug\net8.0\FilterParams.json
 Параметры:
 _cityDistrict — район доставки для фильтрации заказов.
-_firstDeliveryDateTime — минимальная дата доставки.
+_firstDeliveryDateTime — дата первой доставки.
 _deliveryLog — путь к файлу для записи логов.
 _deliveryOrder — путь к файлу для записи отфильтрованных заказов.
 orders.json: файл с входящими заказами для фильтрации.
